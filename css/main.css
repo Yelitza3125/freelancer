@@ -4,13 +4,11 @@
 /*Reseteando el css*/
  * {
      box-sizing: border-box;
-
- }
-
- body {
      margin: 0;
      padding: 0;
+
  }
+
 
  .text-uppercase {
      text-transform: uppercase;
@@ -22,7 +20,7 @@
      width: 100%;
      background-color: #2e3c50;
      height: 120px;
-
+     top: 0;
      overflow: auto; 
  }
 .nav-principal {
@@ -45,6 +43,7 @@
      list-style: none;
  }
 
+ /*Style to bootstrap*/
 .logo {
     display: inline;
     font-family: 'Montserrat', sans-serif;
@@ -54,6 +53,7 @@
     line-height: 120px;
 }
 
+/*Style to menu*/
 .menu li{
     display: inline;
     font-family: 'Montserrat', sans-serif;
@@ -65,7 +65,11 @@
     color: #18bc9c;
 }
 
+/*style to section : start*/
 
+.start {
+ margin-top: 120px;
+}
 
 
 
