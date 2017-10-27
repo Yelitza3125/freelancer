@@ -16,18 +16,56 @@
      text-transform: uppercase;
  }
 
+ /*Style to header*/
  header {
      position: fixed;
      width: 100%;
      background-color: #2e3c50;
+     height: 120px;
+
+     overflow: auto; 
  }
+.nav-principal {
+    display: inline-block;
+}
+
+ .menu {
+    list-style: none;
+    float: right;
+    margin-right: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 120px;
+
+}
 
  .logo a, .menu a {
      color: #fff;
      text-decoration: none;
-     list-style: none;  
- }
-
- .menu {
      list-style: none;
  }
+
+.logo {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 200px;
+    line-height: 120px;
+}
+
+.menu li{
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin-left: 10px;  
+}
+
+.menu a:hover {
+    color: #18bc9c;
+}
+
+
+
+
+
