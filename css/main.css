@@ -6,7 +6,6 @@
      box-sizing: border-box;
      margin: 0;
      padding: 0;
-
  }
 
 
@@ -23,6 +22,7 @@
      top: 0;
      overflow: auto; 
  }
+
 .nav-principal {
     display: inline-block;
 }
@@ -34,7 +34,6 @@
     margin-top: 0;
     margin-bottom: 0;
     line-height: 120px;
-
 }
 
  .logo a, .menu a {
@@ -69,7 +68,16 @@
 
 .start {
  margin-top: 120px;
+ background-color: #18bc9c;
+ width: 100%;
 }
+
+.start figure img {
+    margin-top: 80px;
+    margin-bottom: 40px;  
+    padding: auto;
+}
+
 
 
 
