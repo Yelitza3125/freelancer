@@ -1,3 +1,33 @@
 /*
  * Estilos de tu proyecto
  */
+/*Reseteando el css*/
+ * {
+     box-sizing: border-box;
+
+ }
+
+ body {
+     margin: 0;
+     padding: 0;
+ }
+
+ .text-uppercase {
+     text-transform: uppercase;
+ }
+
+ header {
+     position: fixed;
+     width: 100%;
+     background-color: #2e3c50;
+ }
+
+ .logo a, .menu a {
+     color: #fff;
+     text-decoration: none;
+     list-style: none;  
+ }
+
+ .menu {
+     list-style: none;
+ }
