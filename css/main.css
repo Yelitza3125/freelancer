@@ -79,7 +79,7 @@
     text-align: center;
     position: relative;
 }
-.start figure img {
+.start .profile {
     display: block;
     margin:  auto;
     margin-bottom: 40px;
@@ -139,13 +139,17 @@
     font-size: 50px;
     color: #212529;
     padding-top: 40px;
+    display: inline-block;
 }
 
-.second-title h2::after {
-    content: "";
-    width: 30%;
-    height: 5px;
-    background-color:red;
+.star-line {
+border-color: #2c3e50;
+background-color: #2c3e50;
+width: 7%;
+height: 5px;
+margin: 25px auto;
+display: inline-block;
+
 }
 
 .star-portfolio {
@@ -154,7 +158,11 @@
     margin-top: 20px;
     margin-bottom: 20px;
     display: inline-block;
+    position: relative;
+    bottom: 17px;
 }
+
+/*Style to images
 .images {
     column-count: 3;
     column-gap: 15px;
@@ -162,12 +170,22 @@
     margin: auto;
 }
 .images figure {
-    display: inline-block
-}
-
-figure img {
     width: 350px;
     height: 250px;
     margin-bottom: 25px;
 }
 
+.images  img {
+    width: 100%;
+}
+
+.images .portfolio-link {
+    display: block;
+    margin: 0 auto;
+}
+
+.images a:hover::before {
+    
+    background-color: #18bc9c;
+}
+*/
