@@ -72,11 +72,18 @@
  width: 100%;
 }
 
-.start figure img {
-    margin-top: 80px;
-    margin-bottom: 40px;  
-    padding: auto;
+.container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }
+.start figure img {
+    display: block;
+    margin:  auto;
+    margin-bottom: 40px;
+    padding-top: 80px;
+}
+
 
 
 
