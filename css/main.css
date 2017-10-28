@@ -84,7 +84,20 @@
     padding-top: 80px;
 }
 
+.start h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    color: #fff;
+    font-weight: 700;
+}
 
+ .title h1::after {
+    content: "";
+    background-color: #fff;
+    height: 8px;
+    width: 5%;;
+    display: block;
+}
 
 
 
