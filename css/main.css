@@ -317,3 +317,45 @@ button.dowload a:hover {
 button.dowload a i:hover {
     color: #18bc9c; 
 }
+
+/*Style section contact*/
+
+.contact h2 {
+    color: #212529;
+}
+
+hr.line-contact {
+    border-color: #2c3e50;
+    background-color: #2c3e50;
+    width: 7%;
+    height: 6px;
+    margin: 20px auto;
+    display: inline-block;
+}
+
+.star-contact {
+    color: #2c3e50;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+}
+
+form {
+margin-top: 40px;
+width: 50%;
+margin: auto;
+padding-top: 20px;
+text-align: left;
+}
+
+label {
+    font-family: "Lato", sans-serif;
+    text-transform: none;
+    font-size: 20px;
+    color: #8e8696;
+    display: block;
+    margin-bottom: 10px;
+}
