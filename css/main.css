@@ -287,19 +287,33 @@ button.dowload {
     background-color: #18bc9c;
     border: solid #fff;
     border-radius: 5px;
+    padding: 10px;
     margin-bottom: 100px;
 }
 
-button.dowload p {
-    display: inline-block;
-    color: #fff;
-    font-size: 20px;
-    font-family: "Lato", sans-serif;
-    padding: 10px;
-}
 
 button.dowload i {
     color: #fff;
     font-size: 20px;
-    padding-left: 10px;
+    padding-right: 2px;
+}
+
+button.dowload a{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+}
+
+button.dowload:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button.dowload a:hover {
+    color: #18bc9c; 
+}
+
+button.dowload a i:hover {
+    color: #18bc9c; 
 }
