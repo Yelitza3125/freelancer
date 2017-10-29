@@ -1,6 +1,7 @@
 /*
  * Estilos de tu proyecto
  */
+
 /*Reseteando el css*/
  * {
      box-sizing: border-box;
@@ -8,52 +9,55 @@
      padding: 0;
  }
 
-
+/*Creando la clase text-uppercase para cambiar los textos a mayúsculas*/
  .text-uppercase {
      text-transform: uppercase;
  }
 
- /*Style to header*/
+ /* Inicio de header*/
  header {
+     background-color: #2e3c50;
      position: fixed;
      width: 100%;
-     background-color: #2e3c50;
      height: 120px;
-     top: 0;
      overflow: auto; 
+     top: 0;
      z-index: 1000;
  }
 
+ /*Navegador principal*/
 .nav-principal {
     display: inline-block;
 }
 
- .menu {
-    list-style: none;
+/*Menú de navegación*/
+.menu {
     float: right;
+    line-height: 120px;
+    list-style: none;
     margin-right: 200px;
     margin-top: 0;
-    margin-bottom: 0;
-    line-height: 120px;
+    margin-bottom: 0;   
 }
 
+/*Etiquetas a, ubicadas dentro del logo y el menú*/
  .logo a, .menu a {
      color: #fff;
-     text-decoration: none;
      list-style: none;
+     text-decoration: none;    
  }
 
- /*Style to bootstrap*/
+ /*Estilo al logotipo bootstrap*/
 .logo {
     display: inline;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    margin-left: 200px;
     line-height: 120px;
+    margin-left: 200px;  
 }
 
-/*Style to menu*/
+/*Estilo a la lista del menu*/
 .menu li{
     display: inline;
     font-family: 'Montserrat', sans-serif;
@@ -65,20 +69,24 @@
     color: #18bc9c;
 }
 
-/*style to section : start*/
+
+/* Inicio de la sección Start */
 
 .start {
- margin-top: 120px;
- background-color: #18bc9c;
- width: 100%;
+    background-color: #18bc9c;
+    margin-top: 120px;
+    width: 100%;
 }
 
+/*Creando la clase container que se aplicará al div principal de las secciones*/
 .container {
-    width: 100%;
     margin: auto;
     text-align: center;
     position: relative;
+    width: 100%;
 }
+
+/*Contenedor de la imagen profile*/
 .start .profile {
     display: block;
     margin:  auto;
@@ -86,138 +94,153 @@
     padding-top: 80px;
 }
 
+/*Título principal de la sección */
 .start h1 {
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 70px;
-    color: #fff;
     font-weight: 700;
 }
 
+/*Pseudo elemento después de h1*/
  .title h1::after {
     content: "";
     background-color: #fff;
-    height: 5px;
-    width: 7%;
     display: block;
+    height: 5px;
+    width: 7%; 
     margin-top: 35px;
     margin-left: 650px;
 }
 
+/*Contenedor del ícono star*/
 .star-title {
  color: #fff;
+ display: inline-block;
  font-size: 30px;
  position: relative;
  bottom: 20px;
- display: inline-block;
 }
 
+/*Pseudo elemento después de star*/
 .star-title::after {
     content: "";
     background-color: #fff;
+    display: inline-block;
     height: 5px;
     width: 300%;
-    display: inline-block;
     position: relative;
     bottom: 41px;
     left: 55px; 
 }
 
+/*Subtítulo h3, con selector id*/
 #not-uppercase h3 {
     color: #fff;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-weight: 300;
-    position: relative;
-    bottom: 30px;
     padding-bottom: 60px;
+    position: relative;
+    bottom: 30px;   
 }
 
-/*Style to portfolio*/
 
+/*Inicio de la sección portfolio*/
+
+/*Subtítulo h2*/
 .portfolio h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
     color: #212529;
-    padding-top: 40px;
     display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px; 
+    padding-top: 40px;  
 }
 
+/*Línea del subtítulo*/
 .star-line {
-border-color: #2c3e50;
-background-color: #2c3e50;
-width: 7%;
-height: 5px;
-margin: 10px auto;
-display: inline-block;
+    border-color: #2c3e50;
+    background-color: #2c3e50;
+    display: inline-block;
+    margin: 10px auto;
+    width: 7%;
+    height: 5px;    
 }
 
+/*Icono estrella*/
 .star-portfolio-blue {
     color:#2c3e50;
+    display: inline-block;
     font-size: 30px;
     margin-top: 20px;
-    margin-bottom: 10px;
-    display: inline-block;
+    margin-bottom: 10px; 
     position: relative;
     bottom: 5px;
 }
 
-/*Style to images */
+/* Imágenes del portafolio, división del contenedor. */
 div.images-container {
     column-count: 3;
     column-gap: 15px;
-    width: 70%;
     margin: 10px auto 100px;
+    width: 70%;    
 }
 
+/* Imagen: cabin */
 div.cabin {
-    width: 350px;
-    height: 250px;
     background-image: url("../assets/images/portfolio/cabin.png");
     background-size: cover;
     margin-bottom: 25px;
-}
-
-div.cake {
     width: 350px;
     height: 250px;
+}
+
+/* Imagen: cake */
+div.cake {
     background-image: url("../assets/images/portfolio/cake.png");
     background-size: cover;
     margin-bottom: 25px;
-}
-
-div.circus {
     width: 350px;
     height: 250px;
+}
+
+/* Imagen: circus */
+div.circus {
     background-image: url("../assets/images/portfolio/circus.png");
     background-size: cover;
     margin-bottom: 25px;
-}
-
-div.game {
     width: 350px;
     height: 250px;
+}
+
+/* Imagen: game */
+div.game {
     background-image: url("../assets/images/portfolio/game.png");
     background-size: cover;
     margin-bottom: 25px;
-}
-
-div.safe {
     width: 350px;
     height: 250px;
+}
+
+/* Imagen: safe */
+div.safe {
     background-image: url("../assets/images/portfolio/safe.png");
     background-size: cover;
     margin-bottom: 25px;
-}
-
-div.submarine {
     width: 350px;
     height: 250px;
+}
+
+/* Imagen: submarine */
+div.submarine {
     background-image: url("../assets/images/portfolio/submarine.png");
     background-size: cover;
     margin-bottom: 25px;
+    width: 350px;
+    height: 250px;
 }
 
-
+/*Icono zoom */
 div.zoom {
     width: 350px;
     height: 250px;
@@ -236,68 +259,80 @@ visibility: visible;
 cursor: pointer;
 }
 
-/*Style section:about*/
+
+
+/* Inicio de la sección :about*/
+
+
 .about {
     background-color: #18bc9c;
 }
 
 .about .second-title {
     color: #fff;
-    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    padding-top: 100px;
     margin-bottom: 0;
 }
 
+/*Línea debajo del título*/
 hr.line-about {
-    border-color: #fff;
     background-color: #fff;
-    width: 7%;
-    height: 6px;
-    margin: 10px auto;
+    border-color: #fff;   
     display: inline-block;
+    margin: 10px auto;    
+    width: 7%;
+    height: 6px;   
 }
 
+/*Icono estrella*/
 .star-about {
     color: #fff;
+    display: inline-block;
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
-    display: inline-block;
     position: relative;
     bottom: 5px;
 }
 
+/*División del contenedor del texto*/
 div.text-columns {
-    margin: auto;
-    width: 45%;
     column-count: 2;
     column-gap: 15px;
+    margin: auto;
+    width: 45%;  
 }
 
+/*Estilo a los párrafos*/
 div.text-columns p {
-    text-transform: none;
     color: #fff;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 30px;
     text-align: left;
+    text-transform: none;   
 }
 
+/*Button dowlaod*/
 button.dowload {
     background-color: #18bc9c;
     border: solid #fff;
     border-radius: 5px;
-    padding: 10px;
     margin-bottom: 100px;
+    padding: 10px 15px;   
 }
 
-
+/*Ícono dentro de button*/
 button.dowload i {
     color: #fff;
     font-size: 20px;
     padding-right: 2px;
 }
 
+/*Estilo a la etiqueta a dentro de button dowload*/
 button.dowload a{
     color: #fff;
     font-size: 20px;
@@ -305,9 +340,10 @@ button.dowload a{
     text-decoration: none;
 }
 
+/*Estilo de hover*/
 button.dowload:hover {
-    background-color: #fff;
     cursor: pointer;
+    background-color: #fff;   
 }
 
 button.dowload a:hover {
@@ -318,81 +354,92 @@ button.dowload a i:hover {
     color: #18bc9c; 
 }
 
-/*Style section contact*/
 
+/*Inicio de la sección contact*/
+
+/*Subtítilo */
 .contact h2 {
     color: #212529;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    padding-top: 100px;
 }
 
+/*Línea e ícono debajo de h2*/
 hr.line-contact {
     border-color: #2c3e50;
     background-color: #2c3e50;
+    display: inline-block;
+    margin: 20px auto;  
     width: 7%;
     height: 6px;
-    margin: 20px auto;
-    display: inline-block;
 }
 
 .star-contact {
     color: #2c3e50;
+    display: inline-block;
     font-size: 30px;
     margin-top: 10px;
-    margin-bottom: 10px;
-    display: inline-block;
+    margin-bottom: 10px;  
     position: relative;
     bottom: 15px;
 }
 
+/*Formulario */
 form {
-margin-top: 40px;
-width: 50%;
-margin: auto;
-padding-top: 20px;
-text-align: left;
-padding-bottom: 100px;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    text-align: left;
+    width: 50%;
 }
 
 form div {
     border-bottom: 1px solid rgba(134,144,150, 0.5);
-    width: 100%;
     margin-bottom: 30px;
+    width: 100%;    
 }
 
 form div.message {
     height: 200px;
 }
+
+/*Etiqueta input */
 input {
-    font-family: "Lato", sans-serif;
-    text-transform: none;
-    font-size: 25px;
-    color: #8e8696;
-    margin-top: 20px;
-    margin-bottom: 30px;
     border: none;
+    color: #8e8696;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    text-transform: none;
+    margin-top: 20px;
+    margin-bottom: 30px;   
     outline: none;
 }
 
+/*Botón de envío del formulario */
 form button {
     background-color: #18bc9c;
     border: none;
+    border-radius: 5px;
     color: #fff;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-weight: bold;
     padding: 10px 15px;
-    border-radius: 5px;
 }
 
 form button:hover {
     background-color: #169b80;
 }
 
-/*Style footer*/
+
+/* Inicio de footer*/
 
 footer {
-    background-color: #2c3e50;
-    padding-top: 40px;
     color: #fff;
+    background-color: #2c3e50;
+    padding-top: 50px;   
 }
 
 footer div.content {
@@ -401,23 +448,26 @@ footer div.content {
     overflow: auto;
 }
 
+/*Subtítulo h3*/
 footer h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     margin-bottom: 30px;
 }
 
+/*Texto de footer*/
 footer p {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     text-transform: none;
 }
 
+/*Estilo a los contenedores de texto*/
 footer div.location, div.around, div.about-freelancer {
-float: left;
-width: 22%;
-margin-right: 50px;
-text-align: center:
+    float: left;
+    margin-right: 50px;
+    text-align: center;
+    width: 22%;
 }
 
 div.location {
@@ -436,10 +486,10 @@ footer div.around div {
     font-size: 20px;
 }
 
+/*Estilo a las etiquetas a y hover */
 footer div.around a {
     color: #fff;
 }
-
 
 footer div.around .link:hover {
     background-color: #fff;
@@ -457,13 +507,14 @@ div.about-freelancer a {
  color: #18bc9c;
  text-decoration: none;
 }
+
 div.about-freelancer a:hover {
     text-decoration-line:  underline;
    }
 footer #copyright {
-    padding-top: 100px;
-    padding-bottom: 30px;
     clear: both;
+    padding-top: 100px;
+    padding-bottom: 30px;  
     position: relative;
     right: 50px;   
 }
