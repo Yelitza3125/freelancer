@@ -91,7 +91,7 @@
     display: block;
     margin:  auto;
     margin-bottom: 40px;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 /*Título principal de la sección */
@@ -154,7 +154,7 @@
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px; 
-    padding-top: 40px;  
+    padding-top: 100px;  
 }
 
 /*Línea del subtítulo*/
