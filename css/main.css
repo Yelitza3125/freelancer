@@ -103,7 +103,7 @@
     margin-left: 650px;
 }
 
-.star {
+.star-title {
  color: #fff;
  font-size: 30px;
  position: relative;
@@ -111,7 +111,7 @@
  display: inline-block;
 }
 
-.star::after {
+.star-title::after {
     content: "";
     background-color: #fff;
     height: 5px;
@@ -152,7 +152,7 @@ display: inline-block;
 
 }
 
-.star-portfolio {
+.star-portfolio-blue {
     color:#2c3e50;
     font-size: 30px;
     margin-top: 20px;
@@ -234,9 +234,7 @@ div.zoom i {
 
 div.selection:hover div.zoom {
 visibility: visible;
+cursor: pointer;
 }
-
-
-
 
 

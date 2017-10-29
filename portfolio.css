@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.cross {
+    overflow: auto;
+}
+
+.cross i {
+    font-size: 50px;
+    color: gray;
+    margin: 20px;
+    float: right;
+}
+
+div h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+
+.title-line {
+    border-color: #2c3e50;
+    background-color: #2c3e50;
+    width: 7%;
+    height: 5px;
+    margin: 10px auto;
+    display: inline-block;
+    
+    }
+
+    
+#star-cabin {
+        color:#2c3e50 !important;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: inline-block;
+        position: relative;
+        z-index: 20;      
+}
+
+.title-line, #star-cabin {
+    position: relative;
+    left: 660px;
+}
+
+figure {
+    width: 700px;
+    height: 550px;
+    position: relative;
+    left: 450px;
+}
+
+figure img {
+    width: 100%;
+}
+
+.text, .details  {
+    font-family:  'Lato', sans-serif; 
+}
+
+.text {
+    width: 45%;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.details {
+    font-size: 18px;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+}
+
+.text a, .details a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #18bc9c;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-color: #18bc9c;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 740px;
+}
+
+button a, i.cross-button {
+    color:#fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
