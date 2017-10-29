@@ -147,7 +147,7 @@ border-color: #2c3e50;
 background-color: #2c3e50;
 width: 7%;
 height: 5px;
-margin: 25px auto;
+margin: 10px auto;
 display: inline-block;
 
 }
@@ -156,28 +156,87 @@ display: inline-block;
     color:#2c3e50;
     font-size: 30px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: inline-block;
     position: relative;
-    bottom: 17px;
+    bottom: 5px;
 }
 
 /*Style to images */
-.images {
+div.images-container {
     column-count: 3;
     column-gap: 15px;
     width: 70%;
-    margin: auto;
+    margin: 10px auto 100px;
 }
-.images img {
-    width: 100%;
+
+div.cabin {
+    width: 350px;
     height: 250px;
+    background-image: url("../assets/images/portfolio/cabin.png");
+    background-size: cover;
     margin-bottom: 25px;
 }
 
-.zoom {
-    color: #fff;
-    font-size: 60px;
-    background-color: #18bc9c;
-    padding: 90px 50px;
+div.cake {
+    width: 350px;
+    height: 250px;
+    background-image: url("../assets/images/portfolio/cake.png");
+    background-size: cover;
+    margin-bottom: 25px;
 }
+
+div.circus {
+    width: 350px;
+    height: 250px;
+    background-image: url("../assets/images/portfolio/circus.png");
+    background-size: cover;
+    margin-bottom: 25px;
+}
+
+div.game {
+    width: 350px;
+    height: 250px;
+    background-image: url("../assets/images/portfolio/game.png");
+    background-size: cover;
+    margin-bottom: 25px;
+}
+
+div.safe {
+    width: 350px;
+    height: 250px;
+    background-image: url("../assets/images/portfolio/safe.png");
+    background-size: cover;
+    margin-bottom: 25px;
+}
+
+div.submarine {
+    width: 350px;
+    height: 250px;
+    background-image: url("../assets/images/portfolio/submarine.png");
+    background-size: cover;
+    margin-bottom: 25px;
+}
+
+
+div.zoom {
+    width: 350px;
+    height: 250px;
+    background-color: #18bc9c;
+    visibility: hidden;
+}
+
+div.zoom i {
+    font-size: 60px;
+    color: #fff;
+    line-height: 250px;
+}
+
+div.selection:hover div.zoom {
+visibility: visible;
+}
+
+
+
+
+
