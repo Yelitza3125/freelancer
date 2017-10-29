@@ -421,7 +421,7 @@ text-align: center:
 }
 
 div.location {
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 footer div.around div {
@@ -433,6 +433,20 @@ footer div.around div {
     border-radius: 100%;
     text-align: center;
     line-height: 50px;
+    font-size: 20px;
+}
+
+footer div.around a {
+    color: #fff;
+}
+
+
+footer div.around .link:hover {
+    background-color: #fff;
+}
+
+footer div.around .link i:hover {
+color: #18bc9c;
 }
 
 div.about-freelancer {
@@ -449,11 +463,14 @@ div.about-freelancer a:hover {
 footer #copyright {
     padding-top: 100px;
     padding-bottom: 30px;
-    clear: both;   
+    clear: both;
+    position: relative;
+    right: 50px;   
 }
 
 footer #copyright p {
     font-size: 15px;
 }
+
 
 
