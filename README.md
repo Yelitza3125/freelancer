@@ -172,4 +172,26 @@ El siguiente repositorio contiene la maquetación de la pagina web Bootstrap, su
 
 29. Fin de la segunda sección.
 
-30.
+30. Inicio de la tercera sección about
+
+31. Estilo al contenedor principal, aplicando un color de fondo.
+
+32. Estilo al subtítulo h2, cambio de color a blanco, tipografía Montserrat y un tamaño de 50px. Se aplica un padding-top, para separarlo del final de la primera sección.
+
+33. Mediante la implementación de estilo al elemeto hr, se crean las dos líneas que van debajo del subtítulo. Se aplica la propiedad display inline-block, para que puedan alinearse.
+
+34. Estilo al ícono star y mediante la propiedad position relative, se coloca entre las dos líneas generadas anteriormente.
+
+35. División del contenedor de la sección, en dos columnas con un 45% del ancho de la sección. Se establece una separación entre las columnas de 15px.
+
+36. Estilo a los párrafos contenidos dentro de cada columna. Se utiliza la fuente Lato, un tamaño de 20px y el texto es alineado a la izquierda. Se aplica text-transform con el valor de none, para cambiar el estilo anterior que cambiaba las letras a mayúsculas.
+
+37. Estilo al ícono que va en el botón dowload. 
+
+38. Estilo al elemento ancla del botón dowload. Se cambian los valores por defecto de subrayado y el color.
+
+39. Se establece la pseudo clase hover, para que cambie el color de fondo y  el color de las letras al pasar el cursor. 
+
+40. Fin de la tercera sección.
+
+41.
