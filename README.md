@@ -1,7 +1,7 @@
 # Proyecto: Freelancer
 
 
-![Freelancer ](assets/docs/fullpage.png "Freelancer")
+![Freelancer ](docs/fullpage.png "Freelancer")
 
 ## Descripción del Proyecto:
 
