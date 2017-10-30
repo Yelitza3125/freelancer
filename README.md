@@ -7,6 +7,13 @@
 
 El siguiente repositorio contiene la maquetación de la pagina web Bootstrap, sus secciones y contenidos. Se utilizó para su elaboración, una estructura semántica de HTML y la implementación de estilo y diseño de CCS.
 
+## Herramientas utilizadas:
+
+1. HTML5
+
+2. CSS3
+
+
 ## Procedimiento:
 
 ### Estructura de index.html:
@@ -110,6 +117,7 @@ El siguiente repositorio contiene la maquetación de la pagina web Bootstrap, su
 49. Cierre de la etiqueta body.
 
 50. Cierre de la etiqueta html.
+
 
 
 ### Implementación de la hoja de estilo en el archivo main.css
@@ -243,6 +251,7 @@ El siguiente repositorio contiene la maquetación de la pagina web Bootstrap, su
 64.  Estilo al elemento con id "copyright". Se aplica la propiedad clear both, para separarlo de los elementos flotantes y se ubique en la parte inferior. Se centra el contenido mediante la propiedad position relative. 
 
 
+
 ### Estructura de los archivo html de las imágenes de la sección portfolio:
 
 1. Estructura básica de html.
@@ -280,3 +289,35 @@ El siguiente repositorio contiene la maquetación de la pagina web Bootstrap, su
 17. Cierre de la etiqueta html.
 
 
+
+### Implementación de la hoja de estilo en el archivo portfolio.css
+
+1. Reseteando la hoja de estilo, a través de la propiedad box-sizing border-box y estableciendo el padding y el margin a 0.
+
+2. Se aplica al contenedor del ícono cross, la propiedad overflow auto, para contener al elemento flotado.
+
+3. Al ícono croos, se le aplica la propiedad float left, para que se ubique al lado izquierdo superior de la página. Se cambia su color y el tamaño a 50px.
+
+4. Se aplica estilo al elmento h1, su estilo de fuente es MOntserrat y se alinea al centro mediante la propiedad text-align, con el valor center.
+
+5. A los elementos hr y al ícono star, se les cambia de posición con la propidad position relative.
+
+6. Al alemento hr, se le da un ancho del 7% de su contenedor, y se le da un color igual al del título h1.
+
+7. Al ícono star, se le aplica la propiedad display inline-block para que se mantenga en línea con los elementos hr. Se le da un z-index 20, para prevenir la superposición. El color se cambia para que sea el mismo que el del título h1.
+
+8. Se aplica el estilo al contenedor figure, determinando su ancho y alto. Con la propiedad position relative, es centrado.
+
+9. Se establece el ancho de la imagen al 100% de su contenedor, figure.
+
+10. Se establece el tipo de fuente "Lato" para los textos.
+
+11. A cada elemento con la clase "text", se establece un tamaño de 20px, un margin auto para centrarlo y un ancho del 45% de su contenedor.
+
+12. Al contenedor con clase "details", se le determina un ancho del 25% y también un margin auto para centrarlo. La propiedad text-align, centrará el texto.
+
+13. Se establecen los estilos comunes de los elementos ancla. Se quitan los valores por defecto.
+
+14. Se da estilo al botón, cambiando sus valores por defecto. Se le da un borde redondeado con border-radius. Un padding de 10px, para agrandar el contenido y se cambia el color de fondo.
+
+15. Se da estilo a los elementos ancla y al ícono contenidos dentro del botón. Se cambia el estilo por defecto del elemento ancla y establece un color blanco para el ícono y un tamaño de 15px.
