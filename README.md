@@ -214,4 +214,30 @@ El siguiente repositorio contiene la maquetación de la pagina web Bootstrap, su
 
 50. Fin de la cuarta sección
 
-51. 
+51. Inicio de footer
+
+52. Estilo al contenedor footer, estableciendo el color de fondo de la tipografía y un padding-top, para separar su contenido de la anterior sección.
+
+53. Se establece el ancho del contenedor "content", al 90% del footer. Se centra  con la propiedad margin auto y se aplica overflow para contener a las etiquetas p, con propiedad float left.
+
+54. Estilo al subtítulo h3. Se aplica la tipografía Montserrat.
+
+55. Estilo al párrafo de. Se aplica la tipografía Lato y un tamaño para las letras de 20px. Se quita la propiedad que cambia el texto a mayúsculas.
+
+56. Se aplica el estilo a cada contenedor de texto, con la propiedad float left, un ancho del 22% del contenedor y una separción entre cada contenedor de 50px.
+
+57. El contenedor location, aumenta su margin-left, para centrar el contenido del footer.
+
+58. Cada contenedor que está dentro de un div con clase "around", tiene una propiedad de display inline-block, para todos los íconos de las redes sociales en una sola línea. Se establece border-radius al 100% para generar un cículo.
+
+59. Se establece el estilo a los elemetos ancla dentro del contenedor around, cambiando el color a blanco. 
+
+60. Por medio de la pseudo clase hover, se camba el color de fondo de cada ícono y el color de fuente.
+
+61. Se aplica estilo al div con clase "about-freelancer", a un ancho de 27%.
+
+62. Se establece el estilo a los elemetos ancla dentro del contenedor "about-freelancer", cambiando los valores por defecto.
+
+63. Por medio de la pseudo clase hover, se establace un subrayado.
+
+64.  Estilo al elemento con id "copyright". Se aplica la propiedad clear both, para separarlo de los elementos flotantes y se ubique en la parte inferior. Se centra el contenido mediante la propiedad position relative. 
