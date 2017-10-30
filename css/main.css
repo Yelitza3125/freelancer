@@ -14,20 +14,36 @@
      text-transform: uppercase;
  }
 
+ .wrapper {
+    width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden;
+ }
  /* Inicio de header*/
  header {
      background-color: #2e3c50;
      position: fixed;
      width: 100%;
      height: 120px;
-     overflow: auto; 
+     overflow: hidden; 
      top: 0;
      z-index: 1000;
  }
 
  /*Navegador principal*/
 .nav-principal {
-    display: inline-block;
+    float: left;
+}
+
+ /*Estilo al logotipo bootstrap*/
+ .logo {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 120px;
+    margin-left: 10px;  
 }
 
 /*Menú de navegación*/
@@ -35,7 +51,7 @@
     float: right;
     line-height: 120px;
     list-style: none;
-    margin-right: 200px;
+    margin-right: 10px;
     margin-top: 0;
     margin-bottom: 0;   
 }
@@ -46,16 +62,6 @@
      list-style: none;
      text-decoration: none;    
  }
-
- /*Estilo al logotipo bootstrap*/
-.logo {
-    display: inline;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 120px;
-    margin-left: 200px;  
-}
 
 /*Estilo a la lista del menu*/
 .menu li{
@@ -102,37 +108,27 @@
     font-weight: 700;
 }
 
-/*Pseudo elemento después de h1*/
- .title h1::after {
-    content: "";
-    background-color: #fff;
-    display: block;
-    height: 5px;
-    width: 7%; 
-    margin-top: 35px;
-    margin-left: 650px;
-}
-
-/*Contenedor del ícono star*/
-.star-title {
- color: #fff;
- display: inline-block;
- font-size: 30px;
- position: relative;
- bottom: 20px;
-}
-
-/*Pseudo elemento después de star*/
-.star-title::after {
-    content: "";
+/*Línea debajo de h1*/
+.line-profile {
+    border-color: #fff;
     background-color: #fff;
     display: inline-block;
-    height: 5px;
-    width: 300%;
-    position: relative;
-    bottom: 41px;
-    left: 55px; 
+    margin: 10px auto;
+    width: 7%;
+    height: 5px;    
 }
+
+/*Icono estrella*/
+.star-profile {
+    color: #fff;
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    position: relative;
+    bottom: 5px;
+}
+
 
 /*Subtítulo h3, con selector id*/
 #not-uppercase h3 {
@@ -142,7 +138,7 @@
     font-weight: 300;
     padding-bottom: 60px;
     position: relative;
-    bottom: 30px;   
+    bottom: 5px;   
 }
 
 
