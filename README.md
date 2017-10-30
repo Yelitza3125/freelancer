@@ -241,3 +241,42 @@ El siguiente repositorio contiene la maquetación de la pagina web Bootstrap, su
 63. Por medio de la pseudo clase hover, se establace un subrayado.
 
 64.  Estilo al elemento con id "copyright". Se aplica la propiedad clear both, para separarlo de los elementos flotantes y se ubique en la parte inferior. Se centra el contenido mediante la propiedad position relative. 
+
+
+### Estructura de los archivo html de las imágenes de la sección portfolio:
+
+1. Estructura básica de html.
+
+2. Enlazando el url de la fontAwesome mediante la etiqueta link.
+
+3. Enlazando las fuentes tipográficas mediante la etiqueta link.
+
+4. Enlazando el archivo portfolio.css, mediante la etiqueta link.
+
+5. Inicio de la etiqueta body.
+
+6. Creación de un contenedor div con clase "cross" que contiene un elemento ancla que redirecciona a la página principal y que además contiene el ícono de una cruz.
+
+7. Creación de un contenedor div que contiene un elemento h1.
+
+8. Creación de un elemento hr, para generar una línea horizontal debajo de h1.
+
+9. Creación de un contenedor div con clase "star-cabin", que contiene el ícono estrella.
+
+10. Creación de un elemento hr, para generar una línea horizontal debajo de h1.
+
+11. Craeción del contenedor figure, que contiene la etiqueta img, con cada imagen de portfolio. El destino de referencia de la etiqueta cambian según la imagen.
+
+12. Fin del contenedor figure.
+
+13. Creación de un div con clase "text", que contiene un elemento párrafo.
+
+14. Creación de un div con class "details", que contiene tres párrafos. Cada uno a su vez, contiene un elemento ancla.
+
+15. Creación de un botón con clase "portfolio"; contiene un alemento ancla, que redirecciona a la página principal.
+
+16. Fin de body.
+
+17. Cierre de la etiqueta html.
+
+
