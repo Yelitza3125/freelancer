@@ -471,8 +471,13 @@ div.location {
     margin-left: 150px;
 }
 
+/*Estilo al subtítulo */
+footer div.around h3 {
+    color: #fff;
+}
+
 /*Estilo a cada ícono de las redes sociales*/
-footer div.around div {
+footer div.around div.link {
     display: inline-block;
     margin-right: 5px;
     border: 2px solid #fff;
@@ -484,18 +489,24 @@ footer div.around div {
     font-size: 20px;
 }
 
-/*Estilo a las etiquetas a y hover */
-footer div.around a {
+/*Estilo a la etiqueta a */
+
+footer div.link a {
+    text-decoration: none;
     color: #fff;
+    cursor: pointer;
 }
 
-footer div.around .link:hover {
+footer div.around div.link:hover {
     background-color: #fff;
+    cursor: pointer;
 }
 
-footer div.around .link i:hover {
-color: #18bc9c;
+footer div.around div.link:hover a {
+    cursor: pointer;
+    color: #18bc9c;
 }
+
 
 /*Estilo al contenedor con clase about-freelancer*/
 div.about-freelancer {
