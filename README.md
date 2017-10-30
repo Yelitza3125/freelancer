@@ -1,80 +1,117 @@
-# Freelancer
+# Proyecto: Freelancer
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
 
-***
+![Freelancer ](assets/docs/fullpage.png "Freelancer")
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
+## Descripción del Proyecto:
 
-## Flujo de trabajo
+El siguiente repositorio contiene la maquetación de la pagina web Bootstrap, sus secciones y contenidos. Se utilizó para su elaboración, una estructura semántica de HTML y la implementación de estilo y diseño de CCS.
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+## Procedimiento:
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+### Estructura de index.html:
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
+1. Creación de la estructura básica de HTML
 
-## Objetivo
+2. Enlazando las fuentes tipográficas a utilizar en head.
 
-El reto consiste en replicar el sitio de **Freelancer**, este será el resultado
-a lograr:
+3. Enlazando el link de fontAwesome de donde se seleccionarán los íconos.
 
-![Freelancer Website](docs/fullpage.png)
+4. Enlazando el archivo css, con la etiqueta link.
 
-## Consideraciones
+5. Inicio de la etiqueta body
 
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
+6. Creación de la etiqueta header, e implementando la clase "text-uppercase", para que todo su contenido textual sea en mayúsculas.
 
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto.
+7. Creación de del contenedor div, con clase nav-principal. Contiene al elemento span con clase logo, que hace referencia al logotipo "Bootstrap".
 
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
+8. Creación de una lista desordenada, con clase "menu", dentro de la misma hay tres items: portfolio, about y contact.
 
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
+9. Fin de header
 
-* Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
+10. Creación de la primera sección: Start y el contenedor principal con clase container.
 
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes: `#2c3e50`, `#18bc9c`,
-  `#212529`.
+11. Etiqueta figure, que contiene la imagen profile principal.
 
-* Los íconos de redes sociales puedes obtenerlos de [Font Awesome](http://fontawesome.io/).
+12. Creación de un contenedor div, que contiene al título h1.
 
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios). No te preocupes, estamos seguros que lo afrontarás con
-  éxito, de igual forma aquí unos tips:
+13. Creación de un contenedor con clase "star-title", conteniendo al ícono.
 
-  - Para el formulario, revisa las etiquetas como `form`, `input`, `button`.
+14. Creación de un contenedor div, que contiene al subtítulo h3.
 
-* El subrayado que incluye la estrella en las diversas secciones del sitio, en
-  la web original se hace con un ícono y pseudoelementos (`:after`, `:before`),
-  es un reto entretenido, sin embargo, no trates de enfocarte en esa parte desde
-  un inicio ya que no es el objetivo principal del reto :)
+15. Fin de la primera sección.
 
-* Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
-  para que te des una idea de como debe quedar.
+16. Creación de la segunda sección: "Portfolio"
 
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
+17. Creación de un contenedor div, con clase "second-title", que contiene el subtitulo h2, con el nombre de la sección.
 
-## A tener en cuenta
+18. Creación de una línea horizontal a través de la etiqueta hr.
 
-Este reto será evaluado sobre lo siguiente:
+19. Creación de un contenedor div, que contiene al ícono.
 
-* Pixel perfect (replicar el diseño con exactitud)
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+20. Creación de una segunda línea horizontal.
+
+21. Creación de un contenedor div, con clase "images-container", que contiene a las 6 imágenes.
+
+22. Creación de 6 div, uno para cada imagen, que contienen un elemento ancla y contenedor div, con el ícono zoom. Cada div principal tiene el nombre de clase correspondiente a la imagen que contienen.
+
+23. Fin de la segunda sección.
+
+24. Creación de la tercera sección: about.
+
+25. Creación de un contenedor div, que contiene el subtítulo h2, con el nombre de la sección.
+
+26. Creación de una línea horizontal a través de la etiqueta hr.
+
+27. Creación de un contenedor div, que contiene al ícono.
+
+28. Creación de una segunda línea horizontal.
+
+29.  Creación de un contenedor div con clase "text-columns", que contiene el texto a través de la etiqueta p.
+
+30. Creación de un botón con clase "dowload", que tiene un contenedor div, donde está la etiqueta ancla y el ícono de descarga.
+
+31. Fin de la tercera sección.
+
+32. Inicio de la cuarta sección: contact.
+
+33.  Creación de un contenedor div, que contiene un subtítulo h3, con el nombre de la sección.
+
+34.  Creación de una línea horizontal a través de la etiqueta hr.
+
+35. Creación de un contenedor div, que contiene al ícono.
+
+36. Creación de una segunda línea horizontal.
+
+37. Creación de la etiqueta formulario, a través de la etiqueta form, que contiene en su interior  cuatro div con los elementos input y label, correspondientes a los datos solicitados al usuario.
+
+38. Creación de la etiqueta botón del tipo "submit".
+
+39. Cierre del elemento formulario.
+
+40. Fin de la cuarta sección.
+
+41. Inicio de footer.
+
+42. Creación de un contenedor div con la clase "content", que mantiene en su interior los sub siguientes divs y sus elementos.
+
+43. Dentro del div con clase "content", se crea un contenedor div con clase "location", que contiene un subtítulo h3 y un párrafo.
+
+44. Dentro del div con clase "content", se crea un contenedor div con clase "around", que contiene un subtítulo h3 y 5 div que contienen los íconos de las redes sociales facebook, google, twitter, linkedin y drible.
+
+45. Dentro del div con clase "content", se crea un contenedor div con clase "about-freelancer", que contiene un subtítulo h3 y un párrafo.
+
+46. Dentro del div con clase "content", se crea un contenedor div con clase "copyright", que contiene un párrafo.
+
+47. Cierre del contenedot con clase "content".
+
+48. Fin de footer.
+
+49. Cierre de la etiqueta body.
+
+50. Cierre de la etiqueta html.
+
+
+### Implementación de la hoja de estilo en el archivo main.css
+
+1. 
