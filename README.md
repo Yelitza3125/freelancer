@@ -152,4 +152,24 @@ El siguiente repositorio contiene la maquetación de la pagina web Bootstrap, su
 
 19. Fin de la primera sección.
 
-20.
+20. Inicio de la segunda sección: portfolio.
+
+21. Estilo al subtítulo h2, a través de la implementación de la fuente Montserrat, color y tamaño a 50px. Se establece un espacio entre el contenido y el borde para separar el elemento de la sección anterior.
+
+22. Mediante la implementación de estilo al elemeto hr, se crean las dos líneas que van debajo del subtítulo. Se aplica la propiedad display inline-block, para que puedan alinearse.
+
+23. Estilo al ícono star y mediante la propiedad position relative, se coloca entre las dos líneas generadas anteriormente.
+
+24. Estilo a cada contenedor de la imágenes de la sección. Se establece un ancho de 350px y un alto de 250px. La imagen se posiciona por medio de la propiedad background-image, del tipo cover, para que la imagen se muestre completa. 
+
+25. Las imágenes son separadas aplicando un margin-bottom de 25px.
+
+26. Estilo al contenedor del ícono zoom, que se ve al poner el cursor sobre cada imagen. Se le da un tamaño igual al de las imágenes. Se establece la propiedad visibility hidden, para que solo se vea al aplicar hover.
+
+27. Estilo al ícono zoom. Es centrando mediante un interlineado del mismo tamaño que la altura de su contenedor.
+
+28. Estilo de hover de las imágenes, se cambia el valor la propiedad de visibility a visible.
+
+29. Fin de la segunda sección.
+
+30.
