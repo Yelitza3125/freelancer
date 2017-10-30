@@ -116,4 +116,40 @@ El siguiente repositorio contiene la maquetación de la pagina web Bootstrap, su
 
 1. Reseteando los valores por defecto del archivo, con la propiedad box-sizing border box, y el margin y padding a 0.
 
-2. A través del selector de clase, se establece la clase text-uppercase, con la propiedad text-transform a uppercase, para que cada elemento que contenga esa clase, cambie el texto a mayúsculas. 
+2. A través del selector de clase, se establece la clase text-uppercase, con la propiedad text-transform a uppercase, para que cada elemento que contenga esa clase, cambie el texto a mayúsculas.
+
+3. Estilo a la etiqueta header: color de fondo, posición fixed, y un ancho al 100% del body. Se le da la propiedad overflow auto para que contenga a los elemtos flotados; un z-index de 1000, para que no ocurra superposición de elementos y un top 0, para que inicie desde el inicio de la pantalla del navegador.
+
+4. Estilo al navegador principal, con la propiedad display inline-block.
+
+5. Estilo al elemento con clase "menu", con la propiedad float right, para que situen a la derecha de la página. Se establecen los márgenes y el line-height del mismo alto que el contenedor para centrar los elementos.
+
+6. Estilo a la etiqueta a que está dentro de header y cambiando su estilo por defecto.
+
+7. Estilo al elemento con clase "logo", como es un texto se establce su tipo y tamaño de fuente. 
+
+8. Estilo a cada item del menu de header, mediante la propiedad display inline y un margen de 10px, para separar cada item. Se establece la fuente tipográfica Montserrat.
+
+9. Estilo al pseudoclase hover de los elementos ancla.
+
+10. Fin de header.
+
+11. Inicio de la primera sección start.
+
+12. Al contenedor principal con clase "star", se le aplica un color de fondo, un margin superior y un ancho de 100%.
+
+13. Creación del estilo container, con un margin auto que centra el contenido, un ancho de 100% y la propiedad overflow, cuando se use la porpiedad float.
+
+14. Estilo al contenedor de la imagen profile. Centrado de la imagen.
+
+15. Estilo al título h1, con el color del texto en blanco, el tipo de fuente Montserrat y un tamaño de 70px.
+
+16. Estilo al pseudo elemeto after, que va después de h1; para generar una línea.
+
+17. Estilo al icono star con la propiedad position relative, es desplazada al centro.
+
+18. Estilo al pseudo elemeto after, que va después del ícono star; para generar una línea.
+
+19. Fin de la primera sección.
+
+20.
