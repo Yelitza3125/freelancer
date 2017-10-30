@@ -15,9 +15,9 @@
  }
 
  .wrapper {
-    width:90%; /* Establecemos que el ancho sera del 90% */
-	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
-	margin:auto; /* Centramos los elementos */
+    width:90%; 
+	max-width:1000px; 
+	margin:auto;
 	overflow:hidden;
  }
  /* Inicio de header*/
@@ -177,7 +177,7 @@
 /* Imágenes del portafolio, división del contenedor. */
 div.images-container {
     column-count: 3;
-    column-gap: 15px;
+    column-gap: 15%;
     margin: 10px auto 100px;
     width: 70%;    
 }
@@ -456,10 +456,11 @@ footer p {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     text-transform: none;
+    line-height: 1.5;
 }
 
 /*Estilo a los contenedores de texto*/
-footer div.location, div.around, div.about-freelancer {
+footer div.location, div.around {
     float: left;
     margin-right: 50px;
     text-align: center;
@@ -470,6 +471,7 @@ div.location {
     margin-left: 150px;
 }
 
+/*Estilo a cada ícono de las redes sociales*/
 footer div.around div {
     display: inline-block;
     margin-right: 5px;
@@ -495,8 +497,11 @@ footer div.around .link i:hover {
 color: #18bc9c;
 }
 
+/*Estilo al contenedor con clase about-freelancer*/
 div.about-freelancer {
   width: 27%;
+  float: left;
+  text-align: center;
 }
 
 div.about-freelancer a {
@@ -506,7 +511,9 @@ div.about-freelancer a {
 
 div.about-freelancer a:hover {
     text-decoration-line:  underline;
-   }
+}
+
+
 footer #copyright {
     clear: both;
     padding-top: 100px;
