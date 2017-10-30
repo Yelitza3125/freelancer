@@ -194,4 +194,24 @@ El siguiente repositorio contiene la maquetación de la pagina web Bootstrap, su
 
 40. Fin de la tercera sección.
 
-41.
+41. Inicio de la cuarta sección: contact.
+
+42. Estilo al subtítulo h2, tipo de fuente Montserrat y un tamaño de 50px, se establece un padding-top, para separarlo del final de la tercera sección.
+
+43. Se establece el mismo estilo de líneas y el ícono estrella de la sección dos y tres.
+
+44. Estilo al elemento form. Un anchi del 50% de la sección, con un margin auto para centrarlo y el texto desplazado a la izquierda. Con la propiedad padding y margin se establace la separación de los otros elementos.
+
+45. Estilo al contenedor del elemento form, solo se da color al borde inferior del contenedor.
+
+46. Se establece la altura del contenedor message, ya que contiene varias líneas. 
+
+47. Se aplica estilo a la etiqueta input, se quitan los valores por defecto con la propiedad outline con valor none. Se hacen cambios de tipografía a Lato y se cambia el color.
+
+48. Estilo al botón send (envío), del formulario. Se establece un color de fondo y de tipografía, cambiando los valores por defecto. El borde es redondeado mediante la propiedad border-radius.
+
+49. Mediante la pseudo clase hover, se cambia el color de fondo del botón cuando pasa el cursor.
+
+50. Fin de la cuarta sección
+
+51. 
