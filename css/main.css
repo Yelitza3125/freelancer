@@ -296,7 +296,7 @@ hr.line-about {
 /*División del contenedor del texto*/
 div.text-columns {
     column-count: 2;
-    column-gap: 15px;
+    column-gap: 15%;
     margin: auto;
     width: 45%;  
 }
@@ -307,9 +307,9 @@ div.text-columns p {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     line-height: 1.5;
-    margin-bottom: 30px;
+    margin-bottom: 10%;
     text-align: left;
-    text-transform: none;   
+    text-transform: none;  
 }
 
 /*Button dowlaod*/
@@ -342,11 +342,11 @@ button.dowload:hover {
     background-color: #fff;   
 }
 
-button.dowload a:hover {
+button.dowload div:hover i {
     color: #18bc9c; 
 }
 
-button.dowload a i:hover {
+button.dowload div:hover a{
     color: #18bc9c; 
 }
 
