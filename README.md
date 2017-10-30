@@ -114,4 +114,6 @@ El siguiente repositorio contiene la maquetación de la pagina web Bootstrap, su
 
 ### Implementación de la hoja de estilo en el archivo main.css
 
-1. 
+1. Reseteando los valores por defecto del archivo, con la propiedad box-sizing border box, y el margin y padding a 0.
+
+2. A través del selector de clase, se establece la clase text-uppercase, con la propiedad text-transform a uppercase, para que cada elemento que contenga esa clase, cambie el texto a mayúsculas. 
